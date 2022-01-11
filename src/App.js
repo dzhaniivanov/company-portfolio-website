@@ -5,6 +5,7 @@ import Works from "./components/Works/Works";
 import Intro from "./components/Intro/Intro";
 import "./App.scss"
 import { useState } from "react";
+import Menu from "./components/Menu/Menu";
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />
