@@ -4,20 +4,17 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"menu " + (menuOpen && "active")}>
             <ul >
-                <li className="listItem">
-                    <a href="intro">Home</a>
+                <li className="listItem" onClick={() => setMenuOpen(false)}>
+                    <a href="#intro">Home</a>
                 </li>
-                <li >
-                    <a href="portfolio">Portfolio</a>
+                <li onClick={() => setMenuOpen(false)} >
+                    <a href="#about">About Us</a>
                 </li>
-                <li >
-                    <a href="works">Works</a>
+                <li onClick={() => setMenuOpen(false)} >
+                    <a href="#gallery">Gallery</a>
                 </li>
-                <li >
-                    <a href="contact">Contact</a>
-                </li>
-                <li >
-                    <a href="contact">Contact</a>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
