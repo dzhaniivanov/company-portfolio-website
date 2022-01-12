@@ -1,3 +1,57 @@
+@import "../../Global.scss";
+
 .contact {
-    background-color: lightblue;
+  background-color: white;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+
+      @include mobile {
+       height: 70%;
+       margin-top: 20px;
+      }
+    }
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 30px;
+      text-align: center;
+    }
+
+    .top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .item {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 10px;
+        border-bottom: 1.5px solid gray;
+
+        span {
+            font-size: 16px;
+            font-weight: 300;
+
+            @include mobile {
+              font-size: 14px;
+             }
+        }
+      }
+    }
+  }
 }

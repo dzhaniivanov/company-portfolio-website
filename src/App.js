@@ -11,8 +11,9 @@ import About from "./components/About/About";
 
 
 
-function App() {
 
+
+function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
 
