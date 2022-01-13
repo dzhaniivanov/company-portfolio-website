@@ -15,7 +15,8 @@ const Intro = () => {
                     <h1>Dobrich,Bulgaria</h1>
                     <h3>Processing of oil filter components</h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#about">
+                    <span>See more about our manufacture</span>
                     <img src="assets/down.png" alt="" />
                 </a>
             </div>

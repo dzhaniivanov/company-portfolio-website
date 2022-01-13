@@ -1,4 +1,3 @@
-import React from 'react'
 import GoogleMapReact from 'google-map-react'
 import './Map.css'
 import LocationPin from '../LocationPin/LocationPin'

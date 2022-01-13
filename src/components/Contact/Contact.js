@@ -30,7 +30,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="bottom">
-                    <Map location={location} zoomLevel={17} />
+                    <Map location={location} zoomLevel={15} />
                 </div>
 
             </div>
