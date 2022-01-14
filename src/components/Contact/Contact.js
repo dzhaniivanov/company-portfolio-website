@@ -3,10 +3,13 @@ import Map from "../Map/Map";
 
 const Contact = () => {
     const location = {
-        adress: 'Boulevard 3 mart 54',
-        lat: 43.56090363382541,
-        lng: 27.80608123217932
+        adress: 'Oil Food Technologies Ltd.',
+        /*  lat: 43.56090363382541,
+         lng: 27.80608123217932 */
+        lat: 43.560662432404285,
+        lng: 27.80585356967901
     };
+
 
     return (
         <div className="contact" id="contact">
