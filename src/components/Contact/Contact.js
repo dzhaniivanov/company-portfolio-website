@@ -1,7 +1,12 @@
 import "./Contact.scss";
 import Map from "../Map/Map";
+import { useTranslation } from "react-i18next";
+
+
 
 const Contact = () => {
+    const { t, i18n } = useTranslation();
+
     const location = {
         adress: 'Oil Food Technologies Ltd.',
         /*  lat: 43.56090363382541,
@@ -17,7 +22,7 @@ const Contact = () => {
                 <img src="assets/shake.svg" alt="" />
             </div>
             <div className="right">
-                <h2>Contact with us</h2>
+                <h2>{t("contact_title")}</h2>
                 <div className="top">
                     <div className="item">
                         <span>Alexander Arnaudov</span>

@@ -16,7 +16,7 @@ const Intro = () => {
                 <div className="wrapper">
                     <h2>Oil Food Technologies</h2>
                     <h1>{t("location")}</h1>
-                    <h3>Processing of oil filter components</h3>
+                    <h3>{t("desc")}</h3>
                 </div>
                 <a href="#about">
                     <img src="assets/down.png" alt="" />
