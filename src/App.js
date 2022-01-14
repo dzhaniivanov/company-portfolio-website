@@ -9,10 +9,6 @@ import About from "./components/About/About";
 
 
 
-
-
-
-
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
