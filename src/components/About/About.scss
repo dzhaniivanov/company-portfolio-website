@@ -1,3 +1,31 @@
 .about {
-    background-color: rgb(241, 229, 50);
+  background-color: rgb(241, 229, 50);
+  display: flex;
+  align-items: center;
+
+  .left {
+    flex: 2;
+    margin-left: 10px;
+
+    img {
+      border-radius: 20%;
+    }
+  }
+
+  .right {
+    flex: 3;
+
+    h3 {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 300;
+    }
+    p::first-letter {
+      font-size: 30px;
+    }
+  }
 }

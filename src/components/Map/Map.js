@@ -2,7 +2,7 @@ import GoogleMapReact from 'google-map-react'
 import './Map.css'
 import LocationPin from '../LocationPin/LocationPin'
 
-const Map = ({ location, zoomLevel }) => {
+const   Map = ({ location, zoomLevel }) => {
     return (
         <div className='map'>
             <h2 className="map-h2">Where to find our manufacture</h2>

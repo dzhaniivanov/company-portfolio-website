@@ -16,8 +16,8 @@
       height: 100%;
 
       @include mobile {
-       height: 70%;
-       margin-top: 20px;
+        height: 70%;
+        margin-top: 20px;
       }
     }
   }
@@ -28,7 +28,7 @@
     flex-direction: column;
 
     h2 {
-        font-size: 30px;
+      font-size: 30px;
       text-align: center;
     }
 
@@ -36,6 +36,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+      flex:1;
       .item {
         display: flex;
         flex-direction: column;
@@ -44,14 +45,22 @@
         border-bottom: 1.5px solid gray;
 
         span {
-            font-size: 16px;
-            font-weight: 300;
+          font-size: 16px;
+          font-weight: 300;
 
-            @include mobile {
-              font-size: 14px;
-             }
+          @include mobile {
+            font-size: 14px;
+          }
         }
       }
+    }
+    .bottom {
+      flex:3;
+      display: flex;
+      height: 100%;
+      overflow:hidden;
+      padding: 0;
+      margin: 0;
     }
   }
 }

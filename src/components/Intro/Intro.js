@@ -5,9 +5,9 @@ const Intro = () => {
     return (
         <div className="intro" id="intro">
             <div className="left">
-                <div className="imgContainer">
+                 <div className="imgContainer">
                     <img src="img/logo.png" alt="" />
-                </div>
+                </div> 
             </div>
             <div className="right">
                 <div className="wrapper">
@@ -16,7 +16,6 @@ const Intro = () => {
                     <h3>Processing of oil filter components</h3>
                 </div>
                 <a href="#about">
-                    <span>See more about our manufacture</span>
                     <img src="assets/down.png" alt="" />
                 </a>
             </div>
