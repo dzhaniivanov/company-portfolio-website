@@ -20,7 +20,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                     <a href="#intro" className="logo">
                         oil food technologies.
                     </a>
-                    <div>
+                    <div className="languageWrapper">
                         <button onClick={changeLanguage("en")}>en</button>
                         <button onClick={changeLanguage("bg")}>bg</button>
                     </div>

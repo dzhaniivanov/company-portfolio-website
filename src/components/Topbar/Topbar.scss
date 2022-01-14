@@ -30,6 +30,27 @@
           font-size: 20px;
         }
       }
+
+      .languageWrapper {
+        display: flex;
+
+        :first-child{
+         background: blue;
+        }
+
+        :last-child{
+          background: red;
+        }
+
+        button {
+          font-size: 16px;
+          margin: 10px 15px;
+          padding: 5px;
+          border: none;
+          cursor: pointer;
+          border-radius: 50%;
+        }
+      }
     }
 
     .right {

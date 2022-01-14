@@ -25,14 +25,14 @@ const Contact = () => {
                 <h2>{t("contact_title")}</h2>
                 <div className="top">
                     <div className="item">
-                        <span>Alexander Arnaudov</span>
-                        <span>Manager</span>
+                        <span>{t("contact_name_one")}</span>
+                        <span>{t("contact_type")}</span>
                         <span>+359 123 123</span>
                         <span>arnaudov@gmail.com</span>
                     </div>
                     <div className="item">
-                        <span>Valeri Arnaudov</span>
-                        <span>Manager</span>
+                        <span>{t("contact_name_two")}</span>
+                        <span>{t("contact_type")}</span>
                         <span>+359 123 123</span>
                         <span>arnaudov@gmail.com</span>
                     </div>

@@ -1,5 +1,13 @@
 {
     "location": "Dobrich,Bulgaria",
     "desc": "Processing of oil filter components",
-    "contact_title":"Contact with us"
+    "contact_title": "Contact with us",
+    "contact_type": "Manager",
+    "contact_name_one": "Alexander Arnaudov",
+    "contact_name_two": "Valeri Arnaudov",
+    "title:_about": "A little more about our production",
+    "home": "Home",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "contact": "Contact"
 }
