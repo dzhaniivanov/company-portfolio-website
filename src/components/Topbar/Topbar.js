@@ -21,8 +21,12 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                         oil food technologies.
                     </a>
                     <div className="languageWrapper">
-                        <button onClick={changeLanguage("en")}>en</button>
-                        <button onClick={changeLanguage("bg")}>bg</button>
+                        <button onClick={changeLanguage("en")}>
+                            <img src="/img/uk.png" alt="" style={{width:"100%",height:"24px",objectFit:"cover",borderRadius:"50%",display:"flex"}} />
+                        </button>
+                        <button onClick={changeLanguage("bg")}>
+                        <img src="/img/bg.jpg" alt="" style={{width:"100%",height:"24px",objectFit:"cover",borderRadius:"50%",display:"flex"}} />
+                        </button>
                     </div>
                 </div>
                 <div className="right">

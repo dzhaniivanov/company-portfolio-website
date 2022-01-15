@@ -35,17 +35,15 @@
         display: flex;
 
         :first-child{
-         background: blue;
+       /*   background: blue; */
         }
 
-        :last-child{
+        /* :last-child{
           background: red;
-        }
+        } */
 
         button {
-          font-size: 16px;
           margin: 10px 15px;
-          padding: 5px;
           border: none;
           cursor: pointer;
           border-radius: 50%;
