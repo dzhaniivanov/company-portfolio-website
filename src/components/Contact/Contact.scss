@@ -11,6 +11,7 @@
   .left {
     flex: 1;
     overflow: hidden;
+    margin:10px;
 
     img {
       height: 100%;
@@ -36,7 +37,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      flex:2;
+      flex:1;
 
      
       .item {
@@ -60,9 +61,7 @@
     .bottom {
       flex:3;
       display: flex;
-      height: 70%;
-      padding: 0;
-      margin: 0;
+      height: 50%;
     }
   }
 }

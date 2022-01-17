@@ -4,7 +4,8 @@
 
 .map-h2 {
   text-transform: uppercase;  
-  font-size: 1rem;
+  font-size: 32px;
+  font-weight: bold;
   padding: 20px;
   padding-left: 10px;
   text-align: center;
@@ -18,12 +19,12 @@
 .pin {
   display: flex;
   align-items: center;
-  width: 180px;
+  width: 10 0px;
   color: var(--main-blue);
 }
 
 .pin-icon {
-  font-size: 4rem;
+  font-size: 1rem;
 }
 
 .pin-text {
@@ -36,15 +37,15 @@
   }
 
   .map-h2 {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .pin {
-    width: 15vw;
+    width: 10vw;
   }
 
   .pin-icon {
-    font-size: 10vw;
+    font-size: 5vw;
   }
 }

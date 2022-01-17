@@ -1,11 +1,15 @@
 import GoogleMapReact from 'google-map-react'
 import './Map.css'
 import LocationPin from '../LocationPin/LocationPin'
+import { useTranslation } from "react-i18next";
+
 
 const   Map = ({ location, zoomLevel }) => {
+    const { t, i18n } = useTranslation();
+
     return (
         <div className='map'>
-            <h2 className="map-h2">Where to find our manufacture</h2>
+            <h2 className="map-h2">{t("title_map")}</h2>
             <div className="google-map">
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyCLsZlkbcopaiVoLAfe_jURf_hCEDHUds4' }}
