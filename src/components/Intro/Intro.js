@@ -7,7 +7,7 @@ const Intro = () => {
     const { t, i18n } = useTranslation();
     return (
         <div className="intro" id="intro">
-            <div className="left">
+            <div className="left">      
                 <div className="imgContainer">
                     <img src="img/logo.png" alt="" />
                 </div>
