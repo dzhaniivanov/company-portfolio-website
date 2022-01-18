@@ -25,6 +25,11 @@
     h3 {
       font-size: 25px;
       margin-bottom: 20px;
+
+      @include mobile{
+        text-align: center;
+        margin: 20px 0;
+      }
     }
 
     p {

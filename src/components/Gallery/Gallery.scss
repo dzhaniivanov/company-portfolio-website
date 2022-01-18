@@ -59,6 +59,10 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile {
+          border-radius: 0;
+        }
+
 
         .imgContainer {
           flex: 8;

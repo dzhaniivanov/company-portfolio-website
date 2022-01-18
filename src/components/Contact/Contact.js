@@ -17,8 +17,7 @@ const Contact = () => {
     return (
         <div className="contact" id="contact">
             <div className="left">
-            <Map location={location} zoomLevel={17} />
-                {/* <img src="assets/shake.svg" alt="" /> */}
+                <Map location={location} zoomLevel={17} />
             </div>
             <div className="right">
                 <h2>{t("contact_title")}</h2>
@@ -37,8 +36,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="bottom">
-                   {/*  <Map location={location} zoomLevel={17} /> */}
-                   <img src="assets/shake.svg" alt=""/>
+                    <img src="assets/shake.svg" alt="" />
                 </div>
             </div>
         </div>
