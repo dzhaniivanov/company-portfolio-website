@@ -28,19 +28,23 @@
 
         @include mobile {
           font-size: 20px;
+          visibility: hidden;
+          &:after{
+            visibility: visible;
+            content:"oft.";
+            position:absolute;
+            left:10px;
+            top:10px;
+          }
         }
       }
 
       .languageWrapper {
         display: flex;
 
-        :first-child{
-       /*   background: blue; */
+        @include mobile {
+          overflow: hidden;
         }
-
-        /* :last-child{
-          background: red;
-        } */
 
         button {
           margin: 10px 15px;
