@@ -29,7 +29,7 @@
     flex-direction: column;
 
     h2 {
-      text-transform:uppercase;
+      text-transform: uppercase;
       font-size: 30px;
       text-align: center;
     }
@@ -38,7 +38,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      flex: 0.7;
+      flex: 1;
 
       @include mobile {
         flex: 2;
@@ -51,6 +51,7 @@
         padding: 10px;
         border-bottom: 1.5px solid gray;
 
+
         span {
           font-size: 16px;
           font-weight: 300;
@@ -59,13 +60,14 @@
             font-size: 13px;
           }
         }
+
+        
       }
     }
     .bottom {
       flex: 3;
       display: flex;
       height: 50%;
-
     }
   }
 }
