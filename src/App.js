@@ -7,9 +7,6 @@ import Menu from "./components/Menu/Menu";
 import Gallery from "./components/Gallery/Gallery";
 import About from "./components/About/About";
 
-
-
-
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 

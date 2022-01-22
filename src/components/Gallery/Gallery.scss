@@ -51,10 +51,9 @@
       justify-content: center;
 
       .item {
-        width: 700px;
-        height: 100%;
+        width: 80%;
+        height: 90%;
         background-color: white;
-        border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -73,7 +72,6 @@
 
           img {
             width: 100%;
-
           }
         }
       }

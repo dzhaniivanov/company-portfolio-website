@@ -19,22 +19,23 @@
 
   .right {
     flex: 3;
-
-   
-
     h3 {
       font-size: 25px;
       margin-bottom: 20px;
 
-      @include mobile{
+      @include mobile {
         text-align: center;
-        margin: 20px 0;
+        margin: 10px 0;
+        padding: 25px;
       }
     }
 
     p {
       font-size: 14px;
       font-weight: 300;
+      @include mobile {
+        padding: 25px;
+      }
     }
     p::first-letter {
       font-size: 30px;
