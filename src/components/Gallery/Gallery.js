@@ -29,7 +29,7 @@ const Gallery = () => {
         {
             id: "5",
             img:
-                "/img/banner1.jpg",
+                "/img/7.jpg",
         },
     ];
 

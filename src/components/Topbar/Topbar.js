@@ -9,11 +9,10 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <Link href="#intro" color="inherit">
+                    <Link href="#intro" color="inherit" underline="none" variant="h4">
                         oil food technologies.
                     </Link>
                 </div>
-
                 <div className="right">
                     <div className="languageWrapper">
                         <SelectLanguages />

@@ -32,12 +32,10 @@ const Contact = () => {
                         <Item> <Map location={location} zoomLevel={17} /></Item>
                     </Grid>
                     <Grid item xs={12} md={6} lg={6}>
-
                         <Typography variant="h2" gutterBottom component="div" align="center" class="map-h2">
                             {t("contact_title")}
                         </Typography>
                         <Grid container spacing={5}>
-
                             <Grid item xs={6}>
                                 <Item>
                                     <span>{t("contact_name_one")}</span>
@@ -60,16 +58,14 @@ const Contact = () => {
                                     <span>arnaudov@gmail.com</span>
                                 </Item>
                             </Grid>
-
                             <Grid item xs={12}>
-
                                 <div className="bottom">
                                     <img src="assets/shake.svg" alt="" />
                                 </div>
                             </Grid>
-                        </Grid> { /* Ends container */}
+                        </Grid>
                     </Grid>
-                </Grid> { /* Ends container */}
+                </Grid>
             </Box>
         </div >
     )
