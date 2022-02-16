@@ -21,16 +21,6 @@ const Gallery = () => {
             img:
                 "/img/3.jpg",
         },
-        {
-            id: "4",
-            img:
-                "/img/4.jpg",
-        },
-        {
-            id: "5",
-            img:
-                "/img/7.jpg",
-        },
     ];
 
     const handleClick = (way) => {
